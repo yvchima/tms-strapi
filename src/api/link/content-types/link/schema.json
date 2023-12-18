@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "links",
+  "info": {
+    "singularName": "link",
+    "pluralName": "links",
+    "displayName": "Links",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "googlePlaystore": {
+      "type": "string",
+      "required": true
+    },
+    "appleAppstore": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string",
+      "unique": true
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string",
+      "default": "email"
+    },
+    "email": {
+      "type": "email",
+      "default": "tmssupport@lagosstate.gov.ng",
+      "required": true
+    }
+  }
+}
